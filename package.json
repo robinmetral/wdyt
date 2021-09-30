@@ -1,0 +1,17 @@
+{
+  "name": "wdyt",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview",
+    "update-types": "npx openapi-typescript https://bipdlisatpyatmjjsltk.supabase.co/rest/v1/?apikey=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzMjk5NzM0MiwiZXhwIjoxOTQ4NTczMzQyfQ.2_lwVhhYP2ElztGEll8-GtcpUG8tvqbb7ZZsvso655k --output src/types/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2",
+    "vite": "^2.6.0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^1.24.0"
+  }
+}

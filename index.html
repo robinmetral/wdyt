@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌟</text></svg>"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What did you think?</title>
+  </head>
+  <body>
+    <h1>Loading product...</h1>
+    <div>
+      <!--Average star rating goes here-->
+      <a href="#review">Add review</a>
+    </div>
+    <hr />
+    <ul>
+      <li>No reviews yet.</li>
+    </ul>
+    <hr />
+    <h2 id="review">What's your rating?</h2>
+    <form>
+      <textarea name="review"></textarea>
+      <input type="radio" id="star1" name="rating" value="1" />
+      <label for="star1">☆</label>
+      <input type="radio" id="star2" name="rating" value="2" />
+      <label for="star2">☆</label>
+      <input type="radio" id="star3" name="rating" value="3" />
+      <label for="star3">☆</label>
+      <input type="radio" id="star4" name="rating" value="4" />
+      <label for="star4">☆</label>
+      <input type="radio" id="star5" name="rating" value="5" />
+      <label for="star5">☆</label>
+      <button>Submit</button>
+    </form>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
